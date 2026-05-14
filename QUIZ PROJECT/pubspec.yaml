@@ -1,0 +1,46 @@
+name: quiz_master
+description: Test your knowledge with Quiz Master
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.1.1
+  cloud_firestore: ^6.0.2
+  firebase_auth: ^6.1.0
+  video_player: ^2.8.2
+  google_fonts: ^6.2.0
+  animated_text_kit: ^4.2.2
+  flutter_dotenv: ^5.1.0
+  http: ^1.1.0
+  firebase_database: ^12.0.2
+  lottie: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.3.5
+  flutter_launcher_icons: ^0.14.4
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/quiz.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/image.jpg
+    - assets/videos/login.mp4
+    - assets/videos/background.mp4
+    - .env
+    - assets/animations/success.json
+    - assets/icons/quiz.png
